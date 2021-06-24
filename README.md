@@ -6,7 +6,7 @@
       
       Project on Python/R : SEEKING SIGNALS FROM ESG DATA 
 
-      Purpose :  Show that applying Machine Learning methods on ESG dataset allows us to create
+      Purpose:  Show that applying Machine Learning methods on ESG dataset allows us to create
       equity portfolio with higher return and lower volatility than their benchmark. We also investigate the
       interpretability of our models using SHapley Additive exPlanations and compare the results to a traditional
       Logistic Regression-based approach. We next used the Fama/French Five-Factor for a Backtesting of our result.
@@ -24,35 +24,34 @@
 ### Data Mining :
 
     Project on R: Analysis of the determining factors of the matches in a speed-dating
-    # Analyse des facteurs déterminants des matchs dans un speed-dating (R)
-
+    
     Encoding categorical data : One-hot encoding and Label encoding
 
-    Unsupervised Machine learning : 
+    Unsupervised Machine learning: 
       Classification with  K-means
           
-    Réduction de dimension : Analyce en Composante Principale (ACP)
-
-    Supervised Machine learning : 
-      Regression :   Logistic Regression
+    dimensionality-reduction: Principal Component Analysis (PCA)
+    
+    Supervised Machine learning: 
+      Regression:   Logistic Regression
                      Gradient Boosting Trees
 
-    Imbalanced Dataset :
-      Over-sampling  : SMOTE - ADASYN. 
-      Under-sampling : Random under-sampling
+    Imbalanced Dataset:
+      Over-sampling: SMOTE - ADASYN. 
+      Under-sampling: Random under-sampling
 
-    Feature selection : RFE (Recursive Feature Selection) 
+    Feature selection: RFE (Recursive Feature Selection) 
 
 
 
-### Deep Learning :
+### Deep Learning:
 
     Predicting the number of air passengers (Python)
 
     After a hudge work on data cleaning and preprocessing we used some Machine Learning and Deep Learning methods 
     to predict the number of air passengers of an airline company.
 
-    Machine Learning :
+    Machine Learning:
         Logistic Regression
         ElasticNet
         Random Forest
