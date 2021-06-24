@@ -1,17 +1,8 @@
 # Projects
 
-M1 :
+## Master 2:
 
-- Thesis on Hedge-Fund Persistence (SAS): Non parametric test (RUNS test), normality test, Goodness-of-fit test, ARMA model.
-
-- Thesis on Crisis prediction and its determinants (Python/SAS): Supervised Marchine Learning (Logit, Random Forest, Cart, Adaboost, Decision Tree, Gradient Boosting Trees), explaination with Shapley-Value.
-
-- Project on Python: Analysis of the determinants of AirBnb’s house prices (Web scraping, application of regression methods -Lasso and Gradient Boosting-, Classification -Logit, Random Forest, Cart, Decision Tree-, Text Mining approach).
-
-
-M2 :
-
-Quantitative finance : 
+### Quantitative finance : 
       
       Project on Python/R : SEEKING SIGNALS FROM ESG DATA 
 
@@ -30,7 +21,7 @@ Quantitative finance :
 
 
 
-Data Mining :
+### Data Mining :
 
     Project on R: Analysis of the determining factors of the matches in a speed-dating
     # Analyse des facteurs déterminants des matchs dans un speed-dating (R)
@@ -54,11 +45,11 @@ Data Mining :
 
 
 
-Deep Learning :
+### Deep Learning :
 
     Predicting the number of air passengers (Python)
 
-    After a hudge work on data cleaning anf preprocessing we used some Machine Learning and Deep Learning methods 
+    After a hudge work on data cleaning and preprocessing we used some Machine Learning and Deep Learning methods 
     to predict the number of air passengers of an airline company.
 
     Machine Learning :
@@ -73,7 +64,7 @@ Deep Learning :
 
 
 
-Financial Econometrics:
+### Financial Econometrics:
 
     Projet on Python :
     Unobserved Components Models in Economics and Finance : The role of the Kalman filter in time series econometrics
@@ -97,7 +88,7 @@ Financial Econometrics:
 
 
 
-Machine Learning :
+### Machine Learning :
 
     Project on python : Predict age from brain gray matter
 
@@ -115,7 +106,7 @@ Machine Learning :
     Results obtained by Cross-Validation
 
 
-      Unsupervised Machine learning : 
+    Unsupervised Machine learning : 
           Classification with  K-means
 
     Supervised Machine learning : 
@@ -128,8 +119,7 @@ Machine Learning :
 
 
 
-
-Advanced python :
+### Advanced python :
 
     Project on Python/PySpark : 
 
@@ -166,35 +156,98 @@ Advanced python :
 
 
 
-Advanced Machine Learning :
+### Advanced Machine Learning :
+
+      Courses:
+      -Logistic regression as a neural network
+      -Classification with one layer
+      -Deep Neural Network for Image Classification
+
+      Project on Python :  Machine Learning avancé : Deep Learning for NLP
+
+      Purpose: We will develop our first Deep Learning models applied to language processing. Rather than 
+      recoding everything from scratch, we will rely on the power of the Keras library which will allow us 
+      to connect layers on the fly and implement more exotic architectures.
+
+
+      POS-Tagging and Shallow Parsing are two classic NLP tasks:
+      - POS-Tagging: assigns to each word a unique tag that indicates its syntactic role (noun, verb, adverb, ..)
+      - Shallow Parsing: assigns to each sentence segment a unique tag indicating the role of the syntactic element 
+        to which it belongs (nominal group, verbal group, etc.)
+
+      Here we will redo the work of the NLP almost from scratch article, which consists in creating a 
+      neural network to perform each task, then we will make a shared model and finally a hiearchical model.
+
+
+      POS-Tagging:
+            Word embedding
+            Creation of the tags
+            Creation of the Neural Network (Keras)
+
+      Shallow Parsing:
+            Word embedding
+            Creation of the tags
+            Creation of the Neural Network (Keras)
+
+      Multi-task learning: 
+      Full multi tagged (POS tagging + Shallow parsing):
+            Word embedding
+            Creation of the tags
+            Creation of the neural network common to both tasks
+
+      Hierarchical learning:
+      Another way to do multi-task is to build a cascade architecture where the tasks do not intervene at the same depth of the neural network.
+      Construction of a cascade model of type : 
+                                    POS
+                                  /
+      EMBEDDING - DENSE - DROPOUT 
+                                  \
+                                    DENSE - DROPOUT - CHUNK
 
 
 
 
 
 
+### Série temporelle :
+
+### Gestion de risques: 
 
 
-Série temporelle :
-Gestion de risques: 
-
-
-CRM Analytics :
-Systeme repartis :
-
-
+### CRM Analytics :
+### Systeme repartis :
 
 
 
 
+## Master 1 :
 
-Challenge:
+- Thesis on Hedge-Fund Persistence (SAS): Non parametric test (RUNS test), normality test, Goodness-of-fit test, ARMA model.
 
-Deloitte Drim Game
+- Thesis on Crisis prediction and its determinants (Python/SAS): Supervised Marchine Learning (Logit, Random Forest, Cart, Adaboost, Decision Tree, Gradient Boosting Trees), explaination with Shapley-Value.
 
-Ekimetrics
-
-
-Certification :
+- Project on Python: Analysis of the determinants of AirBnb’s house prices (Web scraping, application of regression methods -Lasso and Gradient Boosting-, Classification -Logit, Random Forest, Cart, Decision Tree-, Text Mining approach).
 
 
+
+# Challenge:
+
+Deloitte : Drim Game
+
+Ekimetrics : 
+
+
+# Certification :
+
+### 2021 (in progress): 
+- Datascientest : Deep-Learning avec le framework Keras 
+- Microsoft Certified: Azure Data Scientist Associate
+
+### 2021: 
+- Datascientest : Advanced Machine Learning with Scikit-learn 
+- Microsoft Azure Fundamentals
+
+### 2020: 
+- Datascientest : Text Mining 
+- Datascientest : Machine Learning with Scikit-learn
+- DataScientest first exam (Python)
