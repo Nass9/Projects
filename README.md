@@ -1,4 +1,10 @@
 
+You will find here the details of a part of the projects that I could realize during my school career. You will also find the certifications I passed as well as the Data challenges I participated in.
+
+en Français :
+Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser durant mon parcours scolaire. Vous y trouverez également les certifications que j'ai passé ainsi que les Data challenges auquels j'ai participé.
+
+
 # Table of contents
 1. [Projects](#Projects)
     1. [Master 2](#Master2)
