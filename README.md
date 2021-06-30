@@ -1,8 +1,5 @@
 
-You will find here the details of a part of the projects that I could realize during my school career. You will also find the certifications I passed as well as the Data challenges I participated in.
-
-en Français :
-Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser durant mon parcours scolaire. Vous y trouverez également les certifications que j'ai passé ainsi que les Data challenges auquels j'ai participé.
+You will find here the details of some projects that I have realized. You will also find the certifications I've passed as well as the Data challenges I've participated in.
 
 
 # Table of contents
@@ -16,10 +13,10 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
           6. [Advanced Python](#Advancedpython)
           7. [Advanced Machine Learning](#AdvancedMachineLearning)
     2. [Master 1](#Master1)
-2. [Challenge](#Challenge)
+2. [Challenges](#Challenge)
     1. [Deloitte](#Deloitte)
     2. [Ekimetrics](#Ekimetrics)
-3. [Certification](#Certification)
+3. [Certifications](#Certification)
 
 
 
@@ -34,7 +31,7 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
       
       Project on Python/R: SEEKING SIGNALS FROM ESG DATA 
 
-      Purpose:  Show that applying Machine Learning methods on ESG dataset allows us to create
+      Purpose:  Showing that applying Machine Learning methods on ESG dataset allows us to create
       equity portfolio with higher return and lower volatility than their benchmark. We also investigate the
       interpretability of our models using SHapley Additive exPlanations and compare the results to a traditional
       Logistic Regression-based approach. We next used the Fama/French Five-Factor for a Backtesting of our result.
@@ -58,11 +55,11 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
     Unsupervised Machine learning: 
       Classification with  K-means
           
-    dimensionality-reduction: Principal Component Analysis (PCA)
+    Dimensionality-reduction: Principal Component Analysis (PCA)
     
     Supervised Machine learning: 
       Regression:   Logistic Regression
-                     Gradient Boosting Trees
+                    Gradient Boosting Trees
 
     Imbalanced Dataset:
       Over-sampling: SMOTE - ADASYN. 
@@ -119,10 +116,10 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
 
     Project on python: Predict age from brain gray matter
 
-    Modelling Methodology:
-    Two step prediction:
-    - We used a Kmeans algorithm to binarize our target variable. This cutoff is determined relatively 
-    arbitrarily from the results of the interpreted Kmeans.
+    Modeling Methodology:
+    Two steps prediction:
+    - We used a K-means algorithm to binarize our target variable. This cutoff is determined relatively 
+    arbitrarily from the results of the interpreted K-means.
     We then used the Recursive Feature Elimination Cross-Validation (RFECV) variable selection algorithm, and implemented 
     this algorithm on Random Forest with Accuracy as a performance metric in order to have a balanced distribution of the target. 
     We optimized our models with GridsearchCV.
@@ -130,8 +127,7 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
     -Next, we decided here to apply a Ridge model to each of the two sub-dataframes using the same methodology: 
     Variable selection by RFECV
     Determination of the optimal penalization ("Alpha") of the model thanks to RidgeCV on each of the two sub-models.
-    Results obtained by Cross-Validation
-
+    Results obtained by Cross-Validation.
 
     Unsupervised Machine learning: 
           Classification with  K-means
@@ -150,8 +146,8 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
 
     Project on Python/PySpark: 
 
-    Resume: For this project we have chosen to work on two IMDb databases found on Kaggle. In this 
-    project we will process these databases on PySpark in order to develop an analysis on these data.
+    Resume: For this project we have chosen to work on two IMDb databases found on Kaggle. We will
+    process these databases on PySpark in order to develop an analysis on these data.
 
     Database processing on PySpark:
     Quasi-Json decoding 
@@ -165,20 +161,20 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
     Natural Language Processing:
 
       Hard cleaning, with two funtions made to remove:
-      - Punctuation, accents and capitalization
+      - Punctuation marks, accents and capitalization
       - Words of less than 2 letters and more than 18 letters
       - Single numbers and numbers embedded in words
 
       Treat stopwords:
         Tokenization  
         Lemmatization
-        Word Embedding ( Modèle FastText de Facebook, Kmeans)
+        Word Embedding ( Facebook FastText model, K-means)
 
       Text Data Visualization
       Topic Modelling : Optimal topics
       LDA(linear discriminant analysis) for Topic Modelling
 
-    To put our analysis further we have created a movie recommendation system based on the LDA results.
+    To put our analysis further, we have created a movie recommendation system based on the LDA results.
 
 
 
@@ -186,9 +182,9 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
 ### Advanced Machine Learning: <a name="AdvancedMachineLearning"></a>
 
       Courses:
-      -Logistic regression as a neural network
-      -Classification with one layer
-      -Deep Neural Network for Image Classification
+      -Logistic regression as a neural network;
+      -Classification with one layer;
+      -Deep Neural Network for Image Classification.
 
       Project on Python: Advanced Machine Learning Deep Learning for NLP
 
@@ -198,12 +194,12 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
 
 
       POS-Tagging and Shallow Parsing are two classic NLP tasks:
-      - POS-Tagging: assigns to each word a unique tag that indicates its syntactic role (noun, verb, adverb, ..)
+      - POS-Tagging: assigns to each word a unique tag that indicates its syntactic role (noun, verb, adverb, etc.);
       - Shallow Parsing: assigns to each sentence segment a unique tag indicating the role of the syntactic element 
-        to which it belongs (nominal group, verbal group, etc.)
+        to which it belongs (nominal group, verbal group, etc.).
 
-      Here we will redo the work of the NLP almost from scratch article, which consists in creating a 
-      neural network to perform each task, then we will make a shared model and finally a hiearchical model.
+      Here, we will redo the work of the NLP almost from scratch article, which consists in creating a 
+      neural network to perform each task. Then, we will make a shared model and finally a hiearchical model.
 
 
       POS-Tagging:
@@ -257,36 +253,35 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
 
 
 
-# Challenge: <a name="Challenge"></a>
+# Challenges: <a name="Challenge"></a>
 
 ### Deloitte:  <a name="Deloitte"></a>
 
-      DRiM Game 2020: Le challenge data science appliqué au risque de crédit (Python - Sas)
+      DRiM Game 2020: The data science challenge applied to credit risk (Python / Sas)
 
       DRiM Game, a competition in which students compete on a banking industry issue, related to the modeling of financial risks, 
-       particularly credit risk
+      particularly credit risk
 
-      Subject:
+      Topic:
       Analysis of the explanatory factors (determinants) of the marginal recovery rates by defaulted maturity 
       band on a credit portfolio.
       The analysis, concerning panel data with a temporal dimension, is to be treated by application of "classical" econometric models and 
       the reasoned use of one or several machine learning methods. 
 
       Context:
-      - Identify the factors influencing the loss given default (LGD) rate.
-      - A regulatory constraint to be met in order to be allowed to use these models for the calculation of capital requirements
-      - An operational issue to optimize the recovery process by guiding the timing and modalities of recovery actions
+      - Identify the factors influencing the loss given default (LGD) rate;
+      - A regulatory constraint to be met in order to be allowed to use these models for the calculation of capital requirements;
+      - An operational issue to optimize the recovery process by guiding the timing and modalities of recovery actions.
       
 
       Methodology:
-
       - For defaulted maturities (m=6, 9, 12, 18, 24), a marginal recovery rate can be estimated. For each of these rates, 
       the explanatory factors will be determined through a model. Thus, each maturity will have an explanatory model 
-      for the recovery rate of the considered maturity
-      - Treatment of the problem via the application of "classic" econometric models
-      - Use of machine learning approaches of your choice, to be applied to the modeling steps that seem relevant to you
-      - Verification of the assumptions underlying the models used
-      - Deliverable in ppt format or other data visualization format
+      for the recovery rate of the considered maturity;
+      - Treatment of the problem via the application of "classic" econometric models;
+      - Use of machine learning approaches of your choice, to be applied to the modeling steps that seem relevant;
+      - Verification of the assumptions underlying the models used;
+      - Deliverable in ppt format or other data visualization format.
       
 
 
@@ -300,21 +295,21 @@ Vous trouverez ici le détails d'une partie des projets que j'ai pu réaliser du
 
       Supervised Classification Problem: Purchase prediction for a 12-month horizon 
 
-      Subject:  One of Ekimetrics' clients is a major player in the automotive industry. This client sells 
+      Topic:  One of Ekimetrics' clients is a major player in the automotive industry. The client sells 
       different car models worldwide but its sales have been decreasing for the last 3 years. 
-      To reverse this trend, this client wants to implement a CRM strategy to better target these customers. 
+      To reverse this trend, the client wants to implement a CRM strategy to better target these customers. 
       This strategy involves building several scores. 
-      Today we will focus on one of these scores which represents a prediction of purchase in 12 months time.
+      Today, we will focus on one of these scores which represents a prediction of purchase in 12 months time.
 
 
-      Methodology :
+      Methodology:
 
       Supervised Classification algorithm presented : XGBoost (Metrics of performance choosed : F1-Score)
 
       Presentation with an web apps build thanks to Streamlit
 
 
-# Certification : <a name="Certification"></a>
+# Certifications : <a name="Certification"></a>
 
 ### 2021 (in progress): 
 - Datascientest : Deep-Learning avec le framework Keras 
