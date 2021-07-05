@@ -312,10 +312,10 @@ You will find here the details of some projects that I have realized. You will a
 # Certifications : <a name="Certification"></a>
 
 ### 2021 (in progress): 
-- Datascientest : Deep-Learning avec le framework Keras 
 - Microsoft Certified: Azure Data Scientist Associate
 
 ### 2021: 
+- Datascientest : Introduction to Deep Learning with Keras 
 - Datascientest : Advanced Machine Learning with Scikit-learn 
 - Microsoft Azure Fundamentals
 
