@@ -1,5 +1,5 @@
 
-You will find here the details of some projects that I have realized. You will also find the certifications I've passed as well as the Data challenges I've participated in.
+You will find here the details of some projects that I have realized during my academic studies. You will also find the certifications I've passed as well as the Data challenges I've participated in.
 
 
 # Table of contents
