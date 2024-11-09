@@ -314,7 +314,7 @@ You will find here the details of some projects that I have realized. You will a
 # Certifications : <a name="Certification"></a>
 
 ### 2024: 
-- GARP: Financial Risk Manager (FRM)
+- GARP: Financial Risk Manager (FRM) - Candidate
 
 ### 2021: 
 - Datascientest : Introduction to Deep Learning with Keras 
