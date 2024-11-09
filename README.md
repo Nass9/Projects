@@ -313,8 +313,8 @@ You will find here the details of some projects that I have realized. You will a
 
 # Certifications : <a name="Certification"></a>
 
-### 2021 (in progress): 
-- Microsoft Certified: Azure Data Scientist Associate (DP100)
+### 2024: 
+- GARP: Financial Risk Manager (FRM)
 
 ### 2021: 
 - Datascientest : Introduction to Deep Learning with Keras 
